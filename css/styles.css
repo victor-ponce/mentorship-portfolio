@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+}
+
+h2 {
+    color:#ffffff;
+}
+
+
+.colored-section {
+    background-color: #262626;
+    padding: 2% 5%;
+}
+
+.btn-dark {
+    background-color: #5c6bcf;
+    border-color: #5c6bcf;
+}
+.btn-outline-light {
+    color: #5c6bcf;
+    border-color: #5c6bcf;
+}
+.row {
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+/*****  Skills and Tools ****/
+/*
+.table {
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+thead {
+    border: 1px solid;
+}
+td {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}*/
+
+.skills-tools {
+    text-align: left;
+    border: 1px solid;
+}
+.pink {
+    color: #da1e6d;
+    font-weight: bold;
+}
+.green {
+    color: #02fbb8;
+    font-weight: bold;
+}
+.blue {
+    color: #079ee6;
+    font-weight: bold;
+}
+/**** Professional Experience**/
+.accordion-body {
+    background-color: #262626;
+    color: #ffffff;
+    text-align: left;
+}
+.accordion-button {
+    color: #5c6bcf
+
+}
+.accordion-item {
+    border: 1px solid #565656;
+   
+}
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background: #cfd3f1;
+    color: #5c6bcf
+}
+.collapsed {
+    background-color: #262626;
+}
+
+
+/******* Education ****/
+
+.card-body {
+    text-align: left;
+}
+.education {
+    text-align: left;
+}
+.data-scroll {
+    border-left: 1px solid #ffffff;
+  padding: 5px 15px;
+}
+
+/********* About me *******/
+.about-me {
+    text-align: left;
+}
+
+/****** Contact me*****/
+.social {
+    font-size: 2rem;
+    padding-left: 5px;
+}
+.mail {
+    color: #5c6bcf;
+    font-weight: bold;
+}
+.copy-button {
+    color: #262626;
+}
+.social {
+    border-radius: 100%;
+}
+
+
+/******* Footer***/
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
