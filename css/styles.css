@@ -164,3 +164,11 @@ hr {
     margin-top: 0;
     margin-bottom: 0;
 }
+.names {
+    color: #5c6bcf;
+    font-weight: bolder;
+        
+    }
+    .footer-link {
+        color: #c0c1c2;
+    }
