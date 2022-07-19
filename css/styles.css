@@ -5,6 +5,9 @@ body {
 h2 {
     color:#ffffff;
 }
+h1 {
+    padding-bottom: 1.5%;
+}
 
 /***************** HOME ********************/
 .colored-section {
@@ -20,9 +23,19 @@ h2 {
     color: #5c6bcf;
     border-color: #5c6bcf;
 }
+.description {
+    padding-bottom: 1%;
+}
+.navbar {
+    padding-bottom: 5%;
+}
 .row {
     color: #ffffff;
     padding: 50px 0;
+}
+
+.first-contact {
+    margin: 1% .5% 1% 0;
 }
 
 /**************  SKILLS & TOOLS *************/
@@ -42,7 +55,7 @@ td {
 
 .skills-tools {
     text-align: left;
-    border: 1px solid;
+    border: 1px solid #606060;
 }
 .pink {
     color: #da1e6d;
@@ -57,17 +70,21 @@ td {
     font-weight: bold;
 }
 /************* PROFESSIONAL EXPERIENCE******************/
+.accordion {
+    padding: 50px 0;
+}
 .accordion-body {
     background-color: #262626;
     color: #ffffff;
     text-align: left;
 }
 .accordion-button {
-    color: #5c6bcf
+    color: #5c6bcf;
+    font-weight: bold;
 
 }
 .accordion-item {
-    border: 1px solid #565656;
+    border: 1px solid #606060;
    
 }
 .accordion-button:not(.collapsed) {
@@ -77,6 +94,7 @@ td {
 }
 .collapsed {
     background-color: #262626;
+    color: #e5e5e5;
 }
 /***************** PROJECTS ********************/
 .btn-project {
@@ -124,17 +142,23 @@ td {
 .card {
     background:#c0c1c2;
 }
-/***************** EDUCATION ******************/
-
 .card-body {
     text-align: left;
 }
+
+
+/***************** EDUCATION ******************/
+
 .education {
     text-align: left;
+    color: #d6d7d9;
 }
 .data-scroll {
     border-left: 1px solid #ffffff;
-  padding: 5px 15px;
+  padding: 1% 5%;
+}
+.level {
+    color: #d6d7d9;
 }
 
 /******************** ABOUT ME ******************/
@@ -171,4 +195,7 @@ hr {
     }
     .footer-link {
         color: #c0c1c2;
+    }
+    .footer-row {
+        padding: 10px 0;
     }
