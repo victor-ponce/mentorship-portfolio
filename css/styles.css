@@ -2,11 +2,20 @@ body {
     text-align: center;
 }
 
-h2 {
-    color:#ffffff;
-}
 h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
     padding-bottom: 1.5%;
+}
+
+h2 {
+    font-family: 'K2D', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
 }
 
 /***************** HOME ********************/
@@ -17,24 +26,49 @@ h1 {
 
 .btn-dark {
     background-color: #5c6bcf;
-    border-color: #5c6bcf;
+    border: 1px solid #5c6bcf;
+    color: #262626;
 }
+
+.btn-dark:hover {
+    background: #8895EA;
+    border: 1px solid #5c6bcf;
+    color: #262626;
+}
+
 .btn-outline-light {
     color: #5c6bcf;
-    border-color: #5c6bcf;
+    border: 1px solid #5c6bcf;
 }
+
+.btn-outline-light:hover {
+    background: #8895EA;
+    border: 1px solid #5c6bcf;
+    color: #5c6bcf;
+}
+
 .description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
     padding-bottom: 1%;
 }
+
 .navbar {
     padding-bottom: 5%;
 }
+
 .row {
     color: #ffffff;
     padding: 50px 0;
 }
 
 .first-contact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
     margin: 1% .5% 1% 0;
 }
 
@@ -57,45 +91,76 @@ td {
     text-align: left;
     border: 1px solid #606060;
 }
+
+.table-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fa-arrow-right {
+    color: #e5e5e5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .pink {
-    color: #da1e6d;
-    font-weight: bold;
+    color: #e31e71;
 }
+
 .green {
-    color: #02fbb8;
-    font-weight: bold;
+    color: #01ffbb;
 }
+
 .blue {
-    color: #079ee6;
-    font-weight: bold;
+    color: #04adfe;
 }
+
 /************* PROFESSIONAL EXPERIENCE******************/
 .accordion {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
     padding: 50px 0;
-}
-.accordion-body {
-    background-color: #262626;
-    color: #ffffff;
-    text-align: left;
-}
-.accordion-button {
-    color: #5c6bcf;
-    font-weight: bold;
 
 }
+
+.accordion-body {
+    background-color: #262626;
+    color: #e5e5e5;
+    text-align: left;
+}
+
+.accordion-button {
+    color: #5c6bcf;
+    font-weight: 700;
+
+}
+
 .accordion-item {
     border: 1px solid #606060;
-   
+
 }
+
 .accordion-button:not(.collapsed) {
     color: inherit;
     background: #cfd3f1;
     color: #5c6bcf
 }
+
 .collapsed {
     background-color: #262626;
     color: #e5e5e5;
 }
+
+.current-button {
+    color: #ffffff
+}
+
 /***************** PROJECTS ********************/
 .btn-project {
     padding: 2.5rem 25rem;
@@ -106,15 +171,17 @@ td {
     border-radius: .3rem;
     overflow: hidden;
 }
+
 .btn-project::before {
     content: 'Skills Used:';
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #212529;
     transition: .2s ease;
 }
 
@@ -124,12 +191,14 @@ td {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    font-size: 1.6rem;
-    color: black;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #212529;
     transition: .2s ease;
     opacity: 0;
-  
+
 }
+
 .btn-project:hover::before {
     transform: translate(-50%, -50%) scale(3);
     opacity: 0;
@@ -139,11 +208,36 @@ td {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
 }
+
 .card {
-    background:#c0c1c2;
+    background: #c0c1c2;
 }
+
 .card-body {
     text-align: left;
+}
+
+.card-subtitle {
+    color: #6c757d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-link {
+    color: #5c6bcf;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
 }
 
 
@@ -153,16 +247,42 @@ td {
     text-align: left;
     color: #d6d7d9;
 }
+
 .data-scroll {
     border-left: 1px solid #ffffff;
-  padding: 1% 5%;
-}
-.level {
-    color: #d6d7d9;
+    padding: 1% 5%;
 }
 
+.level {
+    color: #e5e5e5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 4px 0;
+    padding: 8px 16px;
+}
+.course {
+    color: #d6d7d9;
+    font-weight: 700;  
+}
+.data-scroll {
+    color: #d6d7d9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;    
+}
+/*.active a {
+    color: #5c6bcf;
+}
+*/
 /******************** ABOUT ME ******************/
 .about-me {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400; 
     text-align: left;
 }
 
@@ -171,13 +291,23 @@ td {
     font-size: 2rem;
     padding-left: 5px;
 }
+
 .mail {
     color: #5c6bcf;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
 }
+
 .copy-button {
     color: #262626;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 600;
 }
+
 .social {
     border-radius: 100%;
 }
@@ -188,14 +318,17 @@ hr {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .names {
     color: #5c6bcf;
     font-weight: bolder;
-        
-    }
-    .footer-link {
-        color: #c0c1c2;
-    }
-    .footer-row {
-        padding: 10px 0;
-    }
+
+}
+
+.footer-link {
+    color: #c0c1c2;
+}
+
+.footer-row {
+    padding: 10px 0;
+}
