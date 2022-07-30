@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=K2D:wght@600&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=K2D:wght@600&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- FontAwsome -->
     <script src="https://kit.fontawesome.com/f39027c14c.js" crossorigin="anonymous"></script>
@@ -26,12 +28,12 @@
 <body>
     <!------------------HOME --------------------------->
 
-    <section class="colored-section" id="home">
+    <section class="home" id="home">
         <div class="container-fluid">
             <!-- Nav Bar -->
 
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="">logo here</a>
+                <a class="navbar-brand" href=""><h2>logo here</h2></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -40,7 +42,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#skills">Skills</a>
@@ -61,65 +63,30 @@
                             <a class="nav-link" href="#contact-me">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-dark btn-sm">Download CV</button>
+                            <button type="button" class="btn btn-dark btn-sm download-cv">Download CV</button>
                         </li>
                     </ul>
                 </div>
             </nav>
+        </div>
+    </section>
 
-            <!-- Title -->
-
-            <div class="row">
-                <div class="col">
-                    <h1 class="big-heading">Hi I'm Elizabeth</h1>
-                    <p class="description">A UX/UI Designer passionate abaout solving User centered issues</p>
-                    <button type="button" class="btn btn-dark btn-lg first-contact">Download CV</button>
-                    <button type="button" class="btn btn-outline-light btn-lg first-contact">Contact me</button>
-                </div>
-
+    <!-- Title -->
+    <section class="colored-section" id="title">
+        <div class="row">
+            <div class="col">
+                <h1 class="big-heading">Hi I'm Elizabeth</h1>
+                <p class="description">A UX/UI Designer passionate abaout solving User centered issues</p>
+                <button type="button" class="btn btn-dark btn-lg first-contact">Download CV</button>
+                <button type="button" class="btn btn-outline-light btn-lg first-contact">Contact me</button>
             </div>
+
+        </div>
         </div>
     </section>
 
     <!------- SKILLS AND TOOLS---------->
 
-    <!----------Tabla Bootstrap--
-    <section class="colored-section" id="skills-tools">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h2>Skills and Tools</h2>
-                    <table class="table table-borderless">
-                        <thead>
-                            <tr>
-                                <th>Frontend</th>
-                                <th>Backend</th>
-                                <th>Lenguages / Libraries</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><i class="fa-solid fa-arrow-right"></i> HTML</td>
-                                <td><i class="fa-solid fa-arrow-right"></i> Python</td>
-                                <td><i class="fa-solid fa-arrow-right"></i> Python</td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa-solid fa-arrow-right"></i> CSS</td>
-                                <td><i class="fa-solid fa-arrow-right"></i> Java</td>
-                                <td><i class="fa-solid fa-arrow-right"></i> Java</td>
-                            </tr>
-                            <tr>
-                                <td><i class="fa-solid fa-arrow-right"></i> Javascript</td>
-                                <td><i class="fa-solid fa-arrow-right"></i> PHP</td>
-                                <td><i class="fa-solid fa-arrow-right"></i> PHP</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
--->
     <section class="colored-section" id="skills">
         <div class="container-fluid">
             <h2>Skills and Tools</h2>
@@ -134,19 +101,19 @@
                     <p class="table-heading blue">Languages / Libraries</p>
                 </div>
                 <div class="col skills-tools">
-                    <p><i class="fa-solid fa-arrow-right pink"></i> HTML</p>
-                    <p><i class="fa-solid fa-arrow-right pink"></i> CSS</p>
-                    <p><i class="fa-solid fa-arrow-right pink"></i> Javascript</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right pink"></i> HTML</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right pink"></i> CSS</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right pink"></i> Javascript</p>
                 </div>
                 <div class="col skills-tools">
-                    <p><i class="fa-solid fa-arrow-right green"></i> Python</p>
-                    <p><i class="fa-solid fa-arrow-right green"></i> Java</p>
-                    <p><i class="fa-solid fa-arrow-right green"></i> PHP</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right green"></i> Python</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right green"></i> Java</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right green"></i> PHP</p>
                 </div>
                 <div class="col skills-tools">
-                    <p><i class="fa-solid fa-arrow-right blue"></i> Python</p>
-                    <p><i class="fa-solid fa-arrow-right blue"></i> Java</p>
-                    <p><i class="fa-solid fa-arrow-right blue"></i> PHP</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right blue"></i> Python</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right blue"></i> Java</p>
+                    <p class="skt"><i class="fa-solid fa-arrow-right blue"></i> PHP</p>
                 </div>
             </div>
         </div>
@@ -159,9 +126,10 @@
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                    <div class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <p>Company name <button type="button" class="btn btn-dark btn-sm current-button">  Current </button></p>
+                    <div class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <p class="co-name">Company name <button type="button"
+                                class="btn btn-dark btn-sm current-button"> Current </button></p>
                     </div>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -212,7 +180,7 @@
     </section>
 
     <!-------------------------------- PROJECTS ------------------------------------------------->
-   
+
 
     <section class="colored-section" id="projects">
         <h2>Projects</h2>
@@ -291,7 +259,8 @@
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item"><a class="nav-link level" href="#content-udemy">Udemy</a></li>
                             <li class="nav-item"><a class="nav-link level" href="#content-bachelors">Bachelors</a></li>
-                            <li class="nav-item"><a class="nav-link level" href="#content-highschool">High School</a></li>
+                            <li class="nav-item"><a class="nav-link level" href="#content-highschool">High School</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -335,16 +304,20 @@
             <div class="col-6">
                 <h2>About me</h2>
                 <div class="col about-me">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
         </div>
@@ -358,7 +331,8 @@
                 <h2>Contact me</h2>
                 <h1>Let's get in touch</h1>
                 <p class="description">A UX/UI Designer passionate about solving User centered issues</p>
-                <p class="mail">hello@developer.com   <button type="button" class="btn btn-dark btn-sm copy-button">  Copy  <i class="fa-solid fa-clipboard copy-button"></i></button></p>
+                <p class="mail">hello@developer.com <button type="button" class="btn btn-dark btn-sm copy-button"> Copy
+                        <i class="fa-solid fa-clipboard copy-button"></i></button></p>
                 <i class="social fa-brands fa-github"></i>
                 <i class="social fa-brands fa-linkedin"></i>
                 <i class="social fa-brands fa-whatsapp-square"></i>
@@ -399,13 +373,13 @@
         </div>
 
 
- <div class="container">
-                 <div class="row footer-row collaborators" style="padding-left: 25%; padding-right:22%">
-                     <div class="col-3"> Design by <span class="names">Elizabeth</span></div>
-                     <div class="col-3"> Mentorship by <span class="names">Erick</span></div>
-                     <div class="col-6"> Development by <span class="names">Your Name Here</span></div>
-                 </div>
-             </div>
+        <div class="container">
+            <div class="row footer-row collaborators" style="padding-left: 25%; padding-right:22%">
+                <div class="col-3"> Design by <span class="names">Elizabeth</span></div>
+                <div class="col-3"> Mentorship by <span class="names">Erick</span></div>
+                <div class="col-6"> Development by <span class="names">Your Name Here</span></div>
+            </div>
+        </div>
 
     </section>
 

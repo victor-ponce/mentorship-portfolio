@@ -1,5 +1,9 @@
 body {
+    background-color: #262626;
+    color: #ffffff;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
 }
 
 h1 {
@@ -15,12 +19,14 @@ h2 {
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 
 /***************** HOME ********************/
 .colored-section {
-    background-color: #262626;
+    padding: 3% 5%;
+}
+.home {
     padding: 2% 5%;
 }
 
@@ -48,11 +54,13 @@ h2 {
 }
 
 .description {
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 400;
     padding-bottom: 1%;
+}
+.download-cv {
+    margin-top: 5px;
+    font-weight: 600;
 }
 
 .navbar {
@@ -60,51 +68,33 @@ h2 {
 }
 
 .row {
-    color: #ffffff;
+    /*color: #ffffff;*/
     padding: 50px 0;
 }
 
 .first-contact {
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 600;
     margin: 1% .5% 1% 0;
 }
 
-/**************  SKILLS & TOOLS *************/
-/*
-.table {
-    color: #ffffff;
-    text-align: left;
-    border-bottom: 1px solid;
-}
-thead {
-    border: 1px solid;
-}
-td {
-    border-left: 1px solid;
-    border-right: 1px solid;
-}*/
-
+/******** SKILLS & TOOLS **********/
 .skills-tools {
     text-align: left;
+    background-color: #2b2b2b;
     border: 1px solid #606060;
 }
 
 .table-heading {
-    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 700;
+    margin-bottom: 0;
+    padding: .5rem 0;
 }
 
-.fa-arrow-right {
+.skt {
     color: #e5e5e5;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
+    padding: 3% 0;
 }
 
 .pink {
@@ -121,16 +111,12 @@ td {
 
 /************* PROFESSIONAL EXPERIENCE******************/
 .accordion {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
     padding: 50px 0;
 
 }
 
 .accordion-body {
-    background-color: #262626;
+    background-color: #2b2b2b;
     color: #e5e5e5;
     text-align: left;
 }
@@ -153,12 +139,15 @@ td {
 }
 
 .collapsed {
-    background-color: #262626;
+    background-color: #2b2b2b;
     color: #e5e5e5;
+}
+.co-name {
+    margin-bottom: 0;
 }
 
 .current-button {
-    color: #ffffff
+    color: #ffffff;
 }
 
 /***************** PROJECTS ********************/
@@ -178,7 +167,7 @@ td {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Open Sans', sans-serif;
+   /* font-family: 'Open Sans', sans-serif;*/
     font-size: 1rem;
     font-weight: 700;
     color: #212529;
@@ -219,24 +208,14 @@ td {
 
 .card-subtitle {
     color: #6c757d;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 700;
-}
-
-.card-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
+    margin-top: 0;
+    padding: .3125rem 0 .5rem;
 }
 
 .card-link {
     color: #5c6bcf;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
     font-weight: 600;
 }
 
@@ -255,9 +234,7 @@ td {
 
 .level {
     color: #e5e5e5;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 400;
     margin: 4px 0;
     padding: 8px 16px;
@@ -268,22 +245,16 @@ td {
 }
 .data-scroll {
     color: #d6d7d9;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 400;    
 }
-/*.active a {
+.active a {
     color: #5c6bcf;
 }
-*/
 /******************** ABOUT ME ******************/
 .about-me {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400; 
     text-align: left;
+    padding-top: 2.1875rem;
 }
 
 /**************** CONTACT ME********************/
@@ -294,17 +265,13 @@ td {
 
 .mail {
     color: #5c6bcf;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 600;
 }
 
 .copy-button {
     color: #262626;
-    font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
-    font-style: normal;
     font-weight: 600;
 }
 
